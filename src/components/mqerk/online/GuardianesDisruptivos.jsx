@@ -65,10 +65,9 @@ function Online() {
                     url="https://www.youtube.com/watch?v=sGMTVHWB6do"
                     playing
                     muted
-                    controls
                     width="100%"
                     height="100%"
-                    className="rounded-2xl shadow-lg"
+                    controls
                 />
             </div>
         </div>

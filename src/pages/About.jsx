@@ -1,16 +1,16 @@
-import Topbar from "../components/Topbar";
-import Uno from "../assets/mqerkacademy/about/1.png";
-import Dos from "../assets/mqerkacademy/about/2.png";
-import Tres from "../assets/mqerkacademy/about/3.png";
-import Cuatro from "../assets/mqerkacademy/about/4.png";
-import Cinco from "../assets/mqerkacademy/about/5.png";
-import Siete from "../assets/mqerkacademy/about/7.png";
-import Ocho from "../assets/mqerkacademy/about/8.png";
-import Nueve from "../assets/mqerkacademy/about/9.png";
-import Diez from "../assets/mqerkacademy/about/10.png";
-import Once from "../assets/mqerkacademy/about/11.png";
-import Doce from "../assets/mqerkacademy/about/12.png";
-import Trece from "../assets/mqerkacademy/about/13.png";
+import Topbar from "../components/mqerk/Navbar";
+import Uno from "../assets/mqerk/about/1.png";
+import Dos from "../assets/mqerk/about/2.png";
+import Tres from "../assets/mqerk/about/3.png";
+import Cuatro from "../assets/mqerk/about/4.png";
+import Cinco from "../assets/mqerk/about/5.png";
+import Siete from "../assets/mqerk/about/7.png";
+import Ocho from "../assets/mqerk/about/8.png";
+import Nueve from "../assets/mqerk/about/9.png";
+import Diez from "../assets/mqerk/about/10.png";
+import Once from "../assets/mqerk/about/11.png";
+import Doce from "../assets/mqerk/about/12.png";
+import Trece from "../assets/mqerk/about/13.png";
 import { IoIosRocket } from "react-icons/io";
 import Footer from "../components/footer";
 
@@ -84,8 +84,8 @@ function About() {
       <div className="text-[#53289f] text-center text-xl">simplificada</div>
       <div className="flex justify-center py-2">
         <div className="about w-200 flex justify-center items-center flex-col text-center py-2 rounded-2xl">
-          <p className="text-white text-2xl px-10">Formamos estudiantes creativos y críticos, preparados para destacar en un mundo impulsado por la ciencia y la tecnología.</p>
-          <p className="text-white text-2xl px-10">Ofrecemos un servicio integral, humano y transparente, apoyado en tecnologías educativas disruptivas para su éxito profesional y ciudadano.</p>
+          <p className="text-white text-2xl px-10">Formar estudiantes creativos y críticos, preparados para destacar en un mundo impulsado por la ciencia y la tecnología.</p>
+          <p className="text-white text-2xl px-10">Ofrecer un servicio integral, humano y transparente, apoyado en tecnologías educativas disruptivas para su éxito profesional y ciudadano.</p>
           <div className="flex flex-wrap justify-center gap-6 sm:gap-10 md:gap-16 lg:gap-20">
             <img src={Siete} className="w-24 sm:w-32 md:w-40" />
             <img src={Ocho} className="w-24 sm:w-32 md:w-40" />

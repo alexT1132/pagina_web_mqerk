@@ -31,6 +31,19 @@ import Ciencia_en_alimentos from "./components/mqerk/online/CienciaAlimentos.jsx
 import Ingles2021 from "./components/mqerk/online/Ingles_21.jsx";
 import Profesiografica from "./components/mqerk/exporientas/Profesiografica.jsx";
 import ExporientaEducativa from "./components/mqerk/exporientas/ExporientaEducativa.jsx";
+import Eeau from "./pages/web/preview/Eeau.jsx";
+import Eeap from "./pages/web/preview/Eeap.jsx";
+import DigiStart from "./pages/web/preview/Digi-Start.jsx";
+import Codelab from "./pages/web/preview/Codelab.jsx";
+import LevelUp from "./pages/web/preview/English.jsx";
+import BusinessEnglish from "./pages/web/preview/BussinesEnglish.jsx";
+import Calculo from "./pages/web/preview/CalculoIntegrales.jsx";
+import PiensaResuelve from "./pages/web/preview/PiensaResuelve.jsx";
+import CienciasExperimentales from "./pages/web/preview/CienciasExperimentales.jsx";
+import EstrategiasPsicoeducativas from "./pages/web/preview/EstrategiasPsicoeducativas.jsx";
+import EstrategiasEducativas from "./pages/web/preview/EstrategiasPsicoeducativas.jsx";
+import TecnologiaAplicada from "./pages/web/preview/TecnologiaenlaEnseñanza.jsx";
+import AulaInteligente from "./pages/web/preview/AulaInteligente.jsx";
 
 function App() {
   return (
@@ -42,6 +55,20 @@ function App() {
         <Route path='/blog' element={<Blog />} />
         <Route path="/politicas_de_privacidad" element={<Politicas />} />  
         <Route path="/terminos_y_condiciones" element={<Terminos />} />  
+
+        <Route path='/entrenamiento_examen_admision_universidad' element={<Eeau />} />
+        <Route path='/entrenamiento_examen_admision_preparatoria' element={<Eeap />} />
+        <Route path='/digi-start' element={<DigiStart />} />
+        <Route path='/codelab' element={<Codelab />} />
+        <Route path='/level-up-english' element={<LevelUp />} />
+        <Route path='/business-english-pro' element={<BusinessEnglish />} />
+        <Route path='/calculo-diferencial-e-integral' element={<Calculo />} />
+        <Route path='/piensa-resuelve' element={<PiensaResuelve />} />
+        <Route path='/ciencias-experimentales' element={<CienciasExperimentales />} />
+        <Route path='/estrategias-psicoeducativas' element={<EstrategiasPsicoeducativas />} />
+        <Route path='/estrategias-educativas-para-maestros' element={<EstrategiasEducativas />} />
+        <Route path='/tecnologia-aplicada-en-la-ensenanza' element={<TecnologiaAplicada />} />
+        <Route path='/aula-inteligente' element={<AulaInteligente />} />
 
         {/* Catálogo de eventos y modalidades */}
         <Route path="/talleres" element={<Talleres />} />
