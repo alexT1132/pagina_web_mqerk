@@ -1,4 +1,4 @@
-import Logo from "../assets/MQerk_logo.png";
+import Logo from "../assets/MQerK_logo.png";
 
 export default function FooterNeo({
   brand = "MQerkAcademy",

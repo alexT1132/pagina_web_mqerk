@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Logo from "../../assets/MQerk_logo.png";
+import Logo from "../../assets/MQerK_logo.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -25,7 +25,7 @@ export default function Navbar() {
       <nav className="mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo a la izquierda */}
-          <a href="#" className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60 rounded-xl">
+          <a href="/" className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60 rounded-xl">
             <img src={Logo} alt="Logo" className="h-15 w-20 rounded-full" />
           </a>
 
