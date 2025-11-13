@@ -1,8 +1,8 @@
 import Logo from "../assets/MQerK_logo.png";
 
 export default function FooterNeo({
-  brand = "MQerkAcademy",
-  tagline = "MQerk Academy",
+  brand = "MQerKAcademy",
+  tagline = "MQerKAcademy",
   logoSrc = Logo,
   year = new Date().getFullYear(),
   links = {
@@ -19,14 +19,8 @@ export default function FooterNeo({
     ],
   },
   legal = {
-    terms: { href: "/terminos", label: "Términos y condiciones" },
-    privacy: { href: "/privacidad", label: "Política de privacidad" },
-  },
-  socials = {
-    facebook: "https://facebook.com/",
-    instagram: "https://instagram.com/",
-    youtube: "https://youtube.com/",
-    tiktok: "https://tiktok.com/",
+    terms: { href: "/terminos_y_condiciones", label: "Términos y condiciones" },
+    privacy: { href: "/politicas_de_privacidad", label: "Política de privacidad" },
   },
 }) {
   return (
@@ -51,10 +45,31 @@ export default function FooterNeo({
               </div>
             </div>
             <div className="mt-6 flex items-center gap-3">
-              <Social  label="Facebook"><IconFacebook/></Social>
-              <Social  label="Instagram" variant="outline"><IconInstagram/></Social>
-              <Social  label="YouTube"><IconYoutube/></Social>
-              <Social  label="TikTok"><IconTiktok/></Social>
+              <Social 
+                href='https://www.facebook.com/MQerKAcademy' 
+                label="Facebook"
+              >
+                <IconFacebook/>
+              </Social>
+              <Social 
+                href='https://www.instagram.com/MQerKAcademy' 
+                label="Instagram" 
+                variant="outline"
+              >
+                <IconInstagram/>
+              </Social>
+              <Social 
+                href='https://www.youtube.com/@mqerkacademy' 
+                label="YouTube"
+              >
+                <IconYoutube/>
+              </Social>
+              <Social 
+                href='https://www.tiktok.com/@mqerkacademy_oficial?_r=1&_t=ZS-91NNGGqfLYC' 
+                label="TikTok"
+              >
+                <IconTiktok/>
+              </Social>
             </div>
           </div>
 
@@ -76,8 +91,8 @@ export default function FooterNeo({
           <div>
             <h4 className="footer-title">Contacto</h4>
             <ul className="space-y-2">
-              <li><a href="mailto:mqerkacademycienytec@gmail.com" className="footer-link">mqerkacademycienytec@gmail.com</a></li>
-              <li><a href="tel:+520000000000" className="footer-link">+(52) 287 151 5760</a></li>
+              <li><a className="footer-link">mqerkacademycienytec@gmail.com</a></li>
+              <li><a className="footer-link">+(52) 287 151 5760</a></li>
               <li><span className="text-sm text-neutral-500 dark:text-neutral-400">Tuxtepec, Oax.</span></li>
             </ul>
           </div>
@@ -87,9 +102,10 @@ export default function FooterNeo({
         <div className="mt-10 flex flex-col-reverse items-start gap-4 border-t border-neutral-200 pt-6 sm:flex-row sm:items-center sm:justify-between dark:border-neutral-800">
           <p className="text-sm">© {year} {brand}. Todos los derechos reservados.</p>
           <ul className="flex items-center gap-5 text-sm">
-            <li><a href={legal.terms.href} className="footer-link">{legal.terms.label}</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href={legal.terms.href} className="footer-link">{legal.terms.label}</a></li>
             <li className="h-4 w-px bg-neutral-300 dark:bg-neutral-700" />
-            <li><a href={legal.privacy.href} className="footer-link">{legal.privacy.label}</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href={legal.privacy.href} className="footer-link">
+              {legal.privacy.label}</a></li>
           </ul>
         </div>
       </div>
@@ -116,7 +132,15 @@ function Social({ href, label, children, variant = "solid" }){
   const base = "inline-flex h-10 w-10 items-center justify-center rounded-xl transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3c26cc]/40";
   
   return (
-    <a href={href} aria-label={label} className={`${base}`}>{children}</a>
+    <a 
+      href={href} 
+      aria-label={label} 
+      className={`${base}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {children}
+    </a>
   );
 }
 

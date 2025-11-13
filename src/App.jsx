@@ -101,7 +101,6 @@ function App() {
         <Route path="/mqerk/online/eeau23" element={<Eeau23 />} />
         <Route path="/mqerk/online/todas_y_todos" element={<TodasyTodos />} />
         <Route path="/mqerk/online/foro" element={<Foro />} />
-        <Route path="/mqerk/online/industria_ciencia" element={<IndustriaCiencia />} />
         <Route path="/mqerk/online/matematicas_para_un_mundo_mejor" element={<Matematicas />} />
         <Route path="/mqerk/online/ciencia_en_alimentos_fermentados" element={<Ciencia_en_alimentos />} />
         <Route path="/mqerk/online/ingles_2021" element={<Ingles2021 />} />            

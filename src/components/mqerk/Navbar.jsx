@@ -66,7 +66,12 @@ export default function Navbar() {
                       <DropdownItem href="/bootcamps" label="Bootcamps" />
                       <DropdownItem href="/exporientas" label="Exporientas" />
                       <DropdownItem href="/online" label="Online" />
-                      <DropdownItem href="https://open.spotify.com/user/mvn8ly2def6rlqnbgrck8p85h?si=rBP1ehWvQRqjLVivpqN4jA" label="Podcast" />
+                      <DropdownItem 
+                        href="https://open.spotify.com/user/mvn8ly2def6rlqnbgrck8p85h?si=rBP1ehWvQRqjLVivpqN4jA" 
+                        label="Podcast" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      />
                     </ul>
                   </div>
                 )}
@@ -102,9 +107,9 @@ export default function Navbar() {
         className={`md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out ${open ? "max-h-96" : "max-h-0"}`}
       >
         <div className="px-4 pb-4">
-          <MobileLink href="#inicio">Inicio</MobileLink>
-          <MobileLink href="#acerca">Acerca de</MobileLink>
-          <MobileLink href="#cursos">Cursos</MobileLink>
+          <MobileLink href="/">Inicio</MobileLink>
+          <MobileLink href="/acerca_de">Acerca de</MobileLink>
+          <MobileLink href="/">Cursos</MobileLink>
 
           {/* Dropdown móvil */}
           <div className="border-t border-white/15 my-2" />
@@ -120,9 +125,15 @@ export default function Navbar() {
           </button>
           <div className={`grid transition-[grid-template-rows] duration-300 ease-in-out ${eventsOpenMobile ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
             <div className="overflow-hidden">
-              <MobileSubLink href="#eventos/calendario">Calendario</MobileSubLink>
-              <MobileSubLink href="#eventos/proximos">Próximos eventos</MobileSubLink>
-              <MobileSubLink href="#eventos/pasados">Eventos pasados</MobileSubLink>
+              <MobileSubLink href="/talleres">Talleres</MobileSubLink>
+              <MobileSubLink href="/bootcamps">Bootcamps</MobileSubLink>
+              <MobileSubLink href="/exporientas">Exporientas</MobileSubLink>
+              <MobileSubLink href="/online">Online</MobileSubLink>
+              <MobileSubLink 
+                href="https://open.spotify.com/user/mvn8ly2def6rlqnbgrck8p85h?si=rBP1ehWvQRqjLVivpqN4jA"
+              >
+                Podcast
+              </MobileSubLink>
             </div>
           </div>
 
@@ -145,12 +156,14 @@ export default function Navbar() {
   );
 }
 
-function DropdownItem({ href, label }) {
+function DropdownItem({ href, label, target, rel }) {
   return (
     <li>
       <a
         href={href}
         role="menuitem"
+        target={target}
+        rel={rel}
         className="block px-4 py-2.5 hover:bg-gray-50 rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
       >
         {label}
