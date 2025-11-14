@@ -70,11 +70,11 @@ function Talleres() {
 
       {/* Carousel */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="pasarela-3d-container animate-fade-in">
-          <div className="pasarela-3d">
-            <img src={getLeftImage()} alt="left" className="pasarela-img left" />
-            <img src={images[currentIndex]} alt="center" className="pasarela-img center" />
-            <img src={getRightImage()} alt="right" className="pasarela-img right" />
+        <div className="contenedor-carrusel-talleres animate-fade-in">
+          <div className="galeria-carrusel-talleres">
+            <img src={getLeftImage()} alt="left" className="foto-carrusel-talleres foto-izquierda-talleres" />
+            <img src={images[currentIndex]} alt="center" className="foto-carrusel-talleres foto-central-talleres" />
+            <img src={getRightImage()} alt="right" className="foto-carrusel-talleres foto-derecha-talleres" />
           </div>
         </div>
       </div>

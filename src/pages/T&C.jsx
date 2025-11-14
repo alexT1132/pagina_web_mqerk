@@ -24,14 +24,11 @@ function Blog() {
         {/* Introducción */}
         <section className="mb-12 bg-white rounded-xl shadow-sm p-6 sm:p-8">
           <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-            Bienvenido/a a MQerKAcademy®, una academia educativa que ofrece cursos innovadores y disruptivos en ciencias, 
-            tecnología, creatividad y habilidades cognitivas. Nuestros servicios están diseñados para brindar una experiencia 
-            de aprendizaje práctica, integral y accesible a jóvenes estudiantes y personas interesadas en el desarrollo de 
-            habilidades del siglo XXI.
+            Bienvenido/a a MQerKAcademy®, la academia educativa que impulsa el aprendizaje disruptivo en ciencias, tecnología, creatividad y desarrollo cognitivo. Ofrecemos experiencias formativas prácticas y accesibles para jóvenes de todos los niveles académicos, fortaleciendo sus habilidades para exámenes, estudios y proyectos futuros. Además, brindamos programas de actualización para profesionales y docentes que buscan innovar, adaptarse a las nuevas demandas del siglo XXI y potenciar su práctica con estrategias educativas contemporáneas.
           </p>
           
           <p className="mt-6 text-gray-700 leading-relaxed text-sm sm:text-base">
-            Al utilizar este sitio web y nuestros servicios, aceptas los presentes Términos y Condiciones. Te pedimos que los 
+            Al utilizar este sitio web, nuestros servicios y la plataforma MQerK, aceptas los presentes Términos y Condiciones. Te pedimos que los 
             leas cuidadosamente antes de registrarte o realizar cualquier transacción en nuestra plataforma.
           </p>
 
@@ -258,23 +255,31 @@ function Blog() {
           title="POLÍTICA DE REEMBOLSOS Y CANCELACIONES"
           content={
             <>
-              <p className="text-sm text-gray-600 mb-4">(Bajo la NOM-247-SE-2021)</p>
+              <p className="text-sm text-gray-600 mb-4">(En cumplimiento con la NOM-247-SE-2021)</p>
               <p className="text-gray-700 mb-3">
-                Al adquirir un curso, taller o suscripción, el usuario acepta los precios y condiciones publicadas en la 
-                plataforma. Las condiciones incluyen:
+                Al adquirir cualquier curso, taller, programa, servicio educativo o suscripción ofrecida por MQerKAcademy®, el usuario acepta los precios, términos y condiciones publicados en nuestros medios oficiales. Estas condiciones incluyen:
               </p>
               <ul className="space-y-2 ml-4 mb-4">
                 <li className="flex items-start">
                   <span className="text-indigo-600 mr-2">•</span>
-                  <span>Métodos de pago habilitados (efectivo, transferencia o depósitos).</span>
+                  <span>Métodos de pago autorizados: efectivo, transferencia bancaria y depósitos.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-indigo-600 mr-2">•</span>
-                  <span>Acceso al contenido solo mientras se mantenga activa la suscripción, en caso de membresías.</span>
+                  <span>Acceso al contenido digital: disponible únicamente mientras la membresía o suscripción se mantenga activa, cuando aplique.</span>
                 </li>
               </ul>
+              <p className="text-gray-700 mb-3">
+                <strong>Reembolsos:</strong>
+              </p>
               <p className="text-gray-700">
-                MQerKAcademy® se reserva el derecho de modificar precios o promociones sin afectar transacciones ya realizadas.
+                MQerKAcademy® establece las siguientes disposiciones:
+
+                No se realizan reembolsos una vez que el alumno haya recibido acceso al curso, taller, plataforma, materiales digitales o haya iniciado clases presenciales o virtuales.
+
+                En caso de pagos por error, duplicados o fallas técnicas atribuibles a la institución, el usuario podrá solicitar una revisión del caso para determinar la procedencia del reembolso.
+
+                Los reembolsos aprobados —exclusivamente en situaciones justificadas serán procesados.
               </p>
             </>
           }

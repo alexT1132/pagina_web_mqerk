@@ -1,4 +1,3 @@
-import React from 'react';
 import Topbar from "../components/mqerk/Navbar";
 import Uno from "../assets/mqerk/about/1.png";
 import Dos from "../assets/mqerk/about/2.png";
@@ -28,10 +27,10 @@ function About() {
             <img src={Uno} className="w-32 sm:w-40 md:w-50 drop-shadow-2xl" alt="Logo" />
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-snug text-center animate-slide-up px-4">
-            MQerKAcademy<sup>®</sup> es una academia disruptiva y sostenible que transforma la forma de aprender ciencias y tecnología.
+            MQerKAcademy<sup>®</sup> es la academia disruptiva y sostenible que transforma la forma de aprender ciencias y tecnología.
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-purple-100 leading-relaxed text-center mt-8 max-w-5xl mx-auto animate-slide-up px-4" style={{ animationDelay: '200ms' }}>
-            Preparamos a jóvenes de todos los niveles —básico, medio, medio superior, superior y posgrado— para acreditar materias y exámenes de admisión, dominar habilidades clave y alcanzar un aprendizaje que no tiene límites.
+            Preparamos a jóvenes estudiantes de todos los niveles académicos para acreditar exámenes, reforzar sus conocimientos y desarrollar habilidades científicas, tecnológicas y cognitivas-creativas esenciales para su futuro. Además, acompañamos a profesionales y docentes en el fortalecimiento de competencias innovadoras que potencian su práctica, actualizan su perfil y les permiten adaptarse con éxito a las nuevas demandas educativas y laborales.
           </p>
         </div>
       </div>
@@ -94,7 +93,7 @@ function About() {
           <h2 className="text-4xl sm:text-5xl font-bold text-white text-center mb-2 animate-fade-in">
             Misión
           </h2>
-          <p className="text-purple-200 text-center text-xl mb-12 animate-fade-in">simplificada</p>
+          <p className="text-purple-200 text-center text-xl mb-12 animate-fade-in"></p>
           
           <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 sm:p-12 shadow-2xl animate-slide-up">
             <div className="space-y-6 mb-12">

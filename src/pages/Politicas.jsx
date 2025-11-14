@@ -194,27 +194,6 @@ function Blog() {
                 <p className="text-gray-700">
                   Si MQerKAcademy® se fusiona o es adquirida por otra entidad educativa, se notificará previamente.
                 </p>
-
-                <div className="border-t pt-4 mt-6">
-                  <p className="text-sm text-gray-600 mb-4">(bajo la NOM-019-SCFI-2016)</p>
-                  <ul className="space-y-2 ml-4">
-                    <li className="flex items-start">
-                      <span className="text-blue-600 mr-2">•</span>
-                      <span>
-                        Con proveedores de servicios contratados por MQerKAcademy® (por ejemplo, plataformas de pago, servicios 
-                        de marketing, alojamiento web), quienes están obligados a proteger tu información.
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-600 mr-2">•</span>
-                      <span>Si es requerida por ley, procesos legales o autoridades competentes.</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-blue-600 mr-2">•</span>
-                      <span>Si se fusiona o es adquirida por otra entidad educativa, notificaremos con anticipación.</span>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </>
           }
@@ -254,15 +233,7 @@ function Blog() {
           title="SEGURIDAD DE LOS DATOS"
           content={
             <>
-              <p className="text-gray-700 mb-4">
-                Implementamos medidas administrativas, técnicas y físicas para proteger tu información personal contra pérdida, 
-                robo, uso no autorizado o divulgación. Estas medidas incluyen cifrado SSL, control de acceso con autenticación, 
-                protocolos de respaldo y recuperación, monitoreo de actividad en la plataforma y capacitación periódica del personal. 
-                Aunque trabajamos constantemente para proteger tus datos, ningún sistema es 100% invulnerable. Recomendamos que también 
-                protejas tu información, por ejemplo, utilizando contraseñas seguras y no compartiéndolas.
-              </p>
-
-              <div className="border-t pt-4 mt-6">
+              <div className="">
                 <p className="text-gray-700 mb-3">
                   Implementamos medidas de seguridad técnicas y administrativas para proteger tu información personal, como:
                 </p>
@@ -361,8 +332,7 @@ function Blog() {
               <p className="text-gray-700">
                 En MQerKAcademy® se aplica un modelo de evaluación por competencias que busca valorar el desarrollo de habilidades 
                 cognitivas, creativas y prácticas en el estudiante. Cada curso incluye actividades, proyectos, autoevaluaciones y 
-                retroalimentación personalizada. Para aprobar, el estudiante deberá cumplir con al menos el 80% de las actividades 
-                programadas y obtener una calificación mínima del 70%.
+                retroalimentación personalizada. Al finalizar nuestros cursos, se entregará una constancia o certificado correspondiente a la categoría y nivel del programa cursado. Este documento podrá ser emitido directamente por MQerKAcademy® o, en su caso, por alguna institución de educación oficial mexicana con la que se mantengan convenios de colaboración.
               </p>
             </>
           }
@@ -391,7 +361,7 @@ function Blog() {
             <>
               <p className="text-sm text-gray-600 mb-4">(Bajo la NOM-035-STPS-2018)</p>
               <p className="text-gray-700">
-                Todos los estudiantes de MQerk Academy deben conducirse con respeto, integridad y honestidad dentro de las aulas, 
+                Todos los estudiantes de MQerKAcademy deben conducirse con respeto, integridad y honestidad dentro de las aulas, 
                 se prohíbe expresamente cualquier conducta ofensiva y discriminatoria. La infracción a estas normas podrá derivar 
                 en advertencias, suspensión temporal o baja definitiva de la plataforma, según la gravedad del caso.
               </p>
@@ -445,7 +415,7 @@ function Blog() {
             <>
               <p className="text-sm text-gray-600 mb-4">(Bajo la NOM-008-SSA3-2017)</p>
               <p className="text-gray-700">
-                MQerk Academy se compromete a revisar, mejorar y actualizar sus cursos, recursos y materiales didácticos según el 
+                MQerKAcademy se compromete a revisar, mejorar y actualizar sus cursos, recursos y materiales didácticos según el 
                 tipo de programa. Todo el contenido será desarrollado y validado por docentes especializados y revisado por el equipo 
                 pedagógico antes de su publicación. Las actualizaciones no afectarán negativamente a estudiantes en curso: podrán 
                 finalizar bajo la versión con la que iniciaron, o, si lo desean, migrar a la versión más reciente sin costo adicional.

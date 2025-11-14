@@ -70,6 +70,12 @@ export default function FooterNeo({
               >
                 <IconTiktok/>
               </Social>
+              <Social 
+                href='https://open.spotify.com/user/mvn8ly2def6rlqnbgrck8p85h?si=rBP1ehWvQRqjLVivpqN4jA' 
+                label="Spotify"
+              >
+                <IconSpotify/>
+              </Social>
             </div>
           </div>
 
@@ -172,6 +178,13 @@ function IconTiktok(){
   return (
     <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden>
       <path d="M20 8.3a6.5 6.5 0 0 1-4-1.8v7.1a5.6 5.6 0 1 1-4.8-5.6v2.8a2.9 2.9 0 1 0 2.1 2.8V1.5H16a6.4 6.4 0 0 0 4 3.7V8.3Z" />
+    </svg>
+  );
+}
+function IconSpotify(){
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden>
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.73 14.52c-.15.23-.42.3-.66.15-1.82-1.11-4.11-1.36-6.81-.75-.26.06-.52-.1-.58-.36-.06-.26.1-.52.36-.58 2.96-.67 5.49-.38 7.52.87.24.14.31.42.17.67zm.94-2.09c-.19.29-.59.38-.88.19-2.08-1.28-5.25-1.65-7.72-.9-.31.09-.64-.09-.73-.4-.09-.31.09-.64.4-.73 2.83-.86 6.39-.44 8.74 1.02.29.18.38.58.19.87zm.08-2.18C14.04 11 8.78 10.76 5.68 11.58c-.37.1-.76-.12-.86-.49-.1-.37.12-.76.49-.86 3.56-1 9.38-.72 12.94.86.34.15.49.56.34.9-.15.35-.56.5-.9.35z" />
     </svg>
   );
 }
